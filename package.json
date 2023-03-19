@@ -1,22 +1,33 @@
 {
   "name": "node101",
   "version": "1.0.0",
-  "description": "best way to learn is to practice; We are practicing NodeJs. ### This is the home repo for a handson project **Node101**, visit [issue](https://github.com/0oM4R/node101/issues) to findout more about the tasks",
+  "description": "node101 ",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/0oM4R/node101.git"
+    "url": "git+https://github.com/0oM4R/node101.git"
   },
-  "author": "Fatma Tayser, and Omar Kassem",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/0oM4R/node101/issues"
   },
-  "homepage": "https://github.com/0oM4R/node101#readme"
+  "homepage": "https://github.com/0oM4R/node101#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "eslint": "^8.36.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "^5.0.2"
+  }
 }
