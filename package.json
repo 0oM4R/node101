@@ -1,0 +1,22 @@
+{
+  "name": "node101",
+  "version": "1.0.0",
+  "description": "best way to learn is to practice; We are practicing NodeJs. ### This is the home repo for a handson project **Node101**, visit [issue](https://github.com/0oM4R/node101/issues) to findout more about the tasks",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0oM4R/node101.git"
+  },
+  "author": "Fatma Tayser, and Omar Kassem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0oM4R/node101/issues"
+  },
+  "homepage": "https://github.com/0oM4R/node101#readme"
+}
