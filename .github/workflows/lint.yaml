@@ -2,9 +2,9 @@ name: Lint
 
 on:
   push:
-    branches: [dev]
+    branches: [dev_*]
   pull_request:
-    branches: [dev]
+    branches: [main]
 
 jobs:
   lint:
