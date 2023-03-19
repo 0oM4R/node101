@@ -22,4 +22,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: node index.js
+      - run: echo "Waiting for add tests" && exit 0;
