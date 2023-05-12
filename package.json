@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/0oM4R/node101#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.55.0",
